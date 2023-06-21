@@ -3,8 +3,8 @@ function printQuiz(questions) {
         console.log(question.description)
         switch (question.type) {
             case 'boolean':
-                console.log('1. Verdadeiro')
-                console.log('2. Falso')
+                console.log('1. Sim')
+                console.log('2. Não')
                 break;
             case 'multipleChoice':
                 question.options.forEach((option, index) => {
@@ -12,7 +12,7 @@ function printQuiz(questions) {
                 })
                 break;
             case 'text':
-                console.log('Respnoda: _____________')
+                console.log('Resposta: _____________')
                 break;
             case 'range':
                 console.log('Mínimo: _____________')
@@ -36,11 +36,11 @@ const questions = [
     },
     {
         type: 'text',
-        description: 'Escreva a característica que você mais gosta nessa linguagem.',
+        description: 'Qual a característica que você mais gosta nessa linguagem?',
     },
     {
         type: 'range',
-        description: 'Quanto tempo para estudo você tem?'
+        description: 'Quantas horas por dia você pretende estudar?'
     }
 ]
 
