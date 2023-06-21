@@ -1,7 +1,7 @@
 # SOLID Principles with Javascript Examples
 
-S — Single responsibility principle
-O — Open closed principle
-L — Liskov substitution principle
-I — Interface segregation principle
-D — Dependency Inversion principle
+<b>S</b> - Single responsibility principle <br />
+<b>O</b> - Open closed principle <br />
+<b>L</b> - Liskov substitution principle <br />
+<b>I</b> - Interface segregation principle <br />
+<b>D</b> - Dependency Inversion principle <br />
