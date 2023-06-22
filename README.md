@@ -1,4 +1,4 @@
-# SOLID Principles with Javascript Examples
+# SOLID principles with Javascript
 
 <b>S</b> - Single responsibility principle <br />
 <b>O</b> - Open closed principle <br />
